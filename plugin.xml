@@ -1,15 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin 
-	id="epsonepos2tmp20" 
+	id="epsonepos2" 
 	version="0.0.6" 
 	xmlns="http://apache.org/cordova/ns/plugins/1.0">
-
-	<name>epsonepos2tmp20</name>
+	<name>epsonepos2</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
-    <repo>https://github.com/MarkChu/cordova-plugin-epson-epos2-tm-p20.git</repo>
-    <issue>https://github.com/MarkChu/cordova-plugin-epson-epos2-tm-p20/issues</issue>
+    <repo>https://github.com/mgatto/cordova-plugin-epson-epos2.git</repo>
+    <issue>https://github.com/mgatto/cordova-plugin-epson-epos2/issues</issue>
 
 	<!-- android -->
     <platform name="android">
