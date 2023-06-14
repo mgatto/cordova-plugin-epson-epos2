@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-epsonepos2" 
-	version="1.0.0" 
-	xmlns="http://apache.org/cordova/ns/plugins/1.0">
-	<name>epsonepos2</name>
-    <description></description>
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="cordova-plugin-epsonepos2" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>epsonepos2</name>
+    <description>Prints natively to Epson retail printers via the EPOS2 SDK</description>
     <license>MIT</license>
     <keywords></keywords>
     <repo>https://github.com/mgatto/cordova-plugin-epsonepos2.git</repo>
