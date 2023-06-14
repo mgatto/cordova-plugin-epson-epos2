@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mgatto/cordova-plugin-epson-epos2.git"
+    "url": "git+https://github.com/mgatto/cordova-plugin-epsonepos2.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -21,7 +21,7 @@
   "author": "mgatto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mgatto/cordova-plugin-epson-epos2/issues"
+    "url": "https://github.com/mgatto/cordova-plugin-epsonepos2/issues"
   },
-  "homepage": "https://github.com/mgatto/cordova-plugin-epson-epos2#readme"
+  "homepage": "https://github.com/mgatto/cordova-plugin-epsonepos2#readme"
 }
