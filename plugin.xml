@@ -1,16 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin 
-	id="epsonepos2" 
+<plugin id="epsonepos2" 
 	version="0.0.6" 
 	xmlns="http://apache.org/cordova/ns/plugins/1.0">
 	<name>epsonepos2</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
-    <repo>https://github.com/mgatto/cordova-plugin-epson-epos2.git</repo>
-    <issue>https://github.com/mgatto/cordova-plugin-epson-epos2/issues</issue>
+    <repo>https://github.com/mgatto/cordova-plugin-epsonepos2.git</repo>
+    <issue>https://github.com/mgatto/cordova-plugin-epsonepos2/issues</issue>
 
-	<!-- android -->
+    <!-- android -->
     <platform name="android">
       <js-module src="www/plugin.js" name="plugin">
         <runs/>
@@ -32,14 +31,6 @@
       </config-file>
 
       <source-file src="src/android/epos2Plugin.java" target-dir="src/com/cordova/plugin" />
-
-      <!-- libs 
-      <source-file src="src/android/libs/arm64-v8a/libepos2.so" target-dir="libs/arm64-v8a/" />
-      <source-file src="src/android/libs/armeabi-v7a/libepos2.so" target-dir="libs/armeabi-v7a/" />
-      <source-file src="src/android/libs/armeabi/libepos2.so" target-dir="libs/armeabi/" />
-      <source-file src="src/android/libs/x86_64/libepos2.so" target-dir="libs/x86_64/" />
-      <source-file src="src/android/libs/x86/libepos2.so" target-dir="libs/x86/" />
-      -->
       <lib-file src="src/android/libs/ePOS2.jar" target-dir="/libs/" />
 
       <!-- jniLibs -->
@@ -48,10 +39,6 @@
       <source-file src="src/android/libs/armeabi/libepos2.so" target-dir="jniLibs/armeabi/" />
       <source-file src="src/android/libs/x86_64/libepos2.so" target-dir="jniLibs/x86_64/" />
       <source-file src="src/android/libs/x86/libepos2.so" target-dir="jniLibs/x86/" />
-      <!--
-      <lib-file src="src/android/libs/ePOS2.jar" target-dir="jniLibs/" />
-      -->
-      
     </platform>
 
     <platform name="ios">
@@ -71,14 +58,10 @@
           <string>com.epson.escpos</string>
         </array>
       </config-file>
-
       <header-file src="src/ios/ePOS2.h" />
-
       <header-file src="src/ios/epos2Plugin.h" />
       <source-file src="src/ios/epos2Plugin.m" />
-
       <source-file src="src/ios/libepos2.a" framework="true" />
-
       <framework src="libxml2.2.dylib" framework="true" />
       <framework src="ExternalAccessory.framework" framework="true" />
     </platform>
