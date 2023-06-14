@@ -1,9 +1,9 @@
 {
-  "name": "epsonepos2tmp20",
+  "name": "epsonepos2",
   "version": "0.0.6",
-  "description": "",
+  "description": "Prints natively to Epson retail printers via the EPOS2 SDK",
   "cordova": {
-    "id": "epsonepos2tmp20",
+    "id": "epsonepos2",
     "platforms": [
       "android",
       "ios"
@@ -11,17 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarkChu/cordova-plugin-epson-epos2-tm-p20.git"
+    "url": "git+https://github.com/mgatto/cordova-plugin-epson-epos2.git"
   },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios"
   ],
-  "author": "markchu929",
+  "author": "mgatto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MarkChu/cordova-plugin-epson-epos2-tm-p20/issues"
+    "url": "https://github.com/mgatto/cordova-plugin-epson-epos2/issues"
   },
-  "homepage": "https://github.com/MarkChu/cordova-plugin-epson-epos2-tm-p20#readme"
+  "homepage": "https://github.com/mgatto/cordova-plugin-epson-epos2#readme"
 }
