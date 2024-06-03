@@ -175,6 +175,8 @@ var epos2 = {
         if (typeof successCallback === "function") {
           successCallback(result);
         }
+
+        return result;
       })
       .catch(function(err) {
         if (typeof errorCallback === "function") {
@@ -239,7 +241,7 @@ var epos2 = {
    *
    * Set `terminate` to True in order to complete the print job.
    *
-   * @param {Number} Specifies the start position to draw a horizontal ruled line (in dots). 0 to 65535 
+   * @param {Number} Specifies the start position to draw a horizontal ruled line (in dots). 0 to 65535
    * @param {Number} Specifies the end position to draw a horizontal ruled line (in dots). 0 to 65535
    * @param {Number} Specifies the ruled line type.
    * @param {Boolean} [terminate=false] Send additional line feeds an a "cut" command to complete the print
@@ -277,10 +279,10 @@ var epos2 = {
    *
    * Set `terminate` to True in order to complete the print job.
    *
-   * @param {String} Barcode Data String 
+   * @param {String} Barcode Data String
    * @param {String} Type Type of barcode
    * @param {Number} Specifies the HRI position.(0 - 3) 0:No print 1:above 2:below 3:both
-   * @param {Number} Specifies the HRI font. (0 - 4) 
+   * @param {Number} Specifies the HRI font. (0 - 4)
    * @param {Number} Specifies the width of a single module in dots. (2-6)
    * @param {Number} Specifies the height of the barcode in dots. (1 - 255)
    * @param {Boolean} [terminate=false] Send additional line feeds an a "cut" command to complete the print
@@ -307,9 +309,9 @@ var epos2 = {
    *
    * Set `terminate` to True in order to complete the print job.
    *
-   * @param {String} Barcode Data String 
+   * @param {String} Barcode Data String
    * @param {Number} Specifies the HRI position.(0 - 3) 0:No print 1:above 2:below 3:both
-   * @param {Number} Specifies the HRI font. (0 - 4) 
+   * @param {Number} Specifies the HRI font. (0 - 4)
    * @param {Number} Specifies the width of a single module in dots. (2-6)
    * @param {Number} Specifies the height of the barcode in dots. (1 - 255)
    * @param {Boolean} [terminate=false] Send additional line feeds an a "cut" command to complete the print
